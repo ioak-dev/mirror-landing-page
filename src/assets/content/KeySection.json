@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "faIcon": "icon/dollar.svg",
+      "title": "Lower support cost",
+      "description": "Mirror handles a lot of repititive questions from users, thereby reducing the volume of incoming requests to your support agents."
+    },
+    {
+      "faIcon": "icon/knowledge.svg",
+      "title": "Knowledge in one place",
+      "description": "Achieve a single unified knowledge source - be it internal information restricted to your employees or open information available to your users."
+    },
+    {
+      "faIcon": "icon/automatic.svg",
+      "title": "Multiple resolution channels",
+      "description": "Address user issues by more than one means. User issues can be resolved by auto bots, other users and support agents."
+    }
+  ]
+}

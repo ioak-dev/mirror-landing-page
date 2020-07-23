@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto|Montserrat|Open+Sans|Open+Sans+Condensed:300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&display=swap");
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+
+* {
+  --color-header: #2b2930;
+  --color-footer: #2b2930;
+  --color-primary-1: rgba(72, 165, 251, 0.9);
+  --color-primary-2: rgba(72, 165, 251, 0.7);
+  --color-secondary-1: #ffdb6a;
+  --color-secondary-2: #ffde70;
+  --color-default-1: #737373;
+  --color-default-2: #7b7885;
+  --metric-formelement-height: 40px;
+  --metric-formelement-height-mobile: 36px;
+
+  --color-background-1: #e3e5e8;
+  --color-background-2: #ebedef;
+  --color-background-3: #f2f3f5;
+  --color-background-4: #ffffff;
+  --color-background-5: #ffffff;
+
+  --color-foreground-1: #202225;
+  --color-foreground-2: #292b2f;
+  --color-foreground-3: #2f3136;
+  --color-foreground-4: #2f3136;
+  --color-foreground-5: #2f3136;
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  // font-family: "Open Sans", sans-serif;
+  // font-family: "Hind", sans-serif;
+  // font-family: "Nunito Sans", sans-serif;
+  // font-family: "Oxygen", sans-serif;
+  // font-family: "Poppins", sans-serif;
+  // font-family: "Cormorant Garamond", serif;
+  font-family: "Raleway", sans-serif;
+  word-break: break-word;
+
+  .space-bottom-1 {
+    margin-bottom: 1.45rem;
+  }
+
+  .heading--1 {
+    font-size: 70px;
+    font-family: "Playfair Display", serif;
+    // font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    @media (max-width: 767px) {
+      font-size: 40px;
+    }
+  }
+
+  .heading--2 {
+    font-size: 52px;
+    font-family: "Playfair Display", serif;
+    // font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    @media (max-width: 767px) {
+      font-size: 32px;
+    }
+  }
+
+  .heading--3 {
+    font-size: 32px;
+    font-family: "Playfair Display", serif;
+    // font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    @media (max-width: 767px) {
+      font-size: 22px;
+    }
+  }
+
+  .heading--4 {
+    font-size: 24px;
+    // font-family: "Playfair Display", serif;
+    // font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    @media (max-width: 767px) {
+      // font-size: 1em;
+      font-size: 18px;
+    }
+  }
+
+  .column-layout {
+    width: 65vw;
+    margin: auto;
+    @media (max-width: 767px) {
+      width: 90vw;
+    }
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .soft-font {
+    color: #4b4c60;
+  }
+
+  .mobile-only {
+    @media (min-width: 768px) {
+      display: none !important;
+    }
+  }
+  .desktop-only {
+    @media (max-width: 767px) {
+      display: none !important;
+    }
+  }
+}
