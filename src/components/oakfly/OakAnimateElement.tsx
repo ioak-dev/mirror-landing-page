@@ -14,10 +14,12 @@ const OakAnimateElement = (props: Props) => {
   }, [])
 
   const scroll =
-    window.requestAnimationFrame ||
-    function (callback) {
-      window.setTimeout(callback, 1000 / 60)
-    }
+    typeof window !== "undefined"
+      ? window.requestAnimationFrame ||
+        function (callback) {
+          window.setTimeout(callback, 1000 / 60)
+        }
+      : () => console.log("window not supported in SSR")
 
   const isElementInViewport = el => {
     // special bonus for those using jQuery
