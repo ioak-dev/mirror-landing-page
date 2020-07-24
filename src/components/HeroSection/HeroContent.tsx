@@ -14,9 +14,9 @@ export default function HeroContent() {
         <div className="heading--3 hero-content--subtitle">
           {content.subtitle}
         </div>
-        {/* <div className="hero-content--cta">
+        <div className="hero-content--cta">
           <CallToAction data={content.callToAction} />
-        </div> */}
+        </div>
       </div>
     </OakAnimateElement>
   )

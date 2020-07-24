@@ -21,9 +21,13 @@
 }
 
 .hero-content {
-  color: var(--color-background-1);
+  color: var(--color-background-3);
   display: grid;
   grid-auto-flow: row;
   row-gap: 20px;
   align-content: center;
+
+  .hero-content--subtitle {
+    // font-family: "Raleway", sans-serif;
+  }
 }

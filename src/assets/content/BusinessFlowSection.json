@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "faIcon": "fas fa-book-open",
+      "title": "Populate with articles",
+      "description": "Build a knowledge base with a list of answers for common problems and questions related to your product."
+    },
+    {
+      "faIcon": "fas fa-question",
+      "title": "User asks a question",
+      "description": "User can either search the articles, or can submit a question in forum."
+    },
+    {
+      "faIcon": "fas fa-magic",
+      "title": "Auto suggestion",
+      "description": "If similar post or article already exists, then shown to user. If user is not satisfied with the suggestion, question is submitted as a post."
+    },
+    {
+      "faIcon": "fas fa-comments",
+      "title": "Post answered",
+      "description": "Customer support agent or other users add comment to the post. User marks a comment as answer or replies with further conversation."
+    }
+  ]
+}

@@ -15,6 +15,8 @@ import CopyrightSection from "../components/CopyrightSection"
 import FeatureSection from "../components/FeatureSection"
 import SpecialitySection from "../components/SpecialitySection"
 import AiSection from "../components/AiSection"
+import ResponsiveSection from "../components/ResponsiveSection"
+import BusinessFlowSection from "../components/BusinessFlowSection"
 
 const IndexPage = () => (
   <div className="page-home">
@@ -24,6 +26,8 @@ const IndexPage = () => (
     <SpecialitySection />
     <AiSection />
     <KeySection />
+    {/* <ResponsiveSection /> */}
+    <BusinessFlowSection />
     <FeatureSection />
     <OnboardSection />
     <FaqSection />

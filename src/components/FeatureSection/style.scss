@@ -10,7 +10,7 @@
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
-  color: var(--color-background-1);
+  color: var(--color-background-5);
   .feature-section--heading {
     display: flex;
     justify-content: center;
@@ -19,9 +19,9 @@
     display: grid;
     justify-content: center;
     padding: 100px 0;
-    color: var(--color-background-1);
+    color: var(--color-background-3);
     @media (min-width: 768px) {
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       column-gap: 30px;
       row-gap: 30px;
     }
