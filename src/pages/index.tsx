@@ -20,7 +20,7 @@ import BusinessFlowSection from "../components/BusinessFlowSection"
 
 const IndexPage = () => (
   <div className="page-home">
-    <SEO title="Features and getting started" />
+    <SEO title="Features" />
     {/* <Link to="/page-2/">Go to page 2</Link> <br /> */}
     <HeroSection />
     <SpecialitySection />
