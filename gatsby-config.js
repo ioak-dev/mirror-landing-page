@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     siteUrl: `https://home.mirror.ioak.org`,
-    title: `Increase efficiency of customer support workflow`,
+    title: `Efficient customer support workflow`,
     // description: `Whether you are a startup or an established business, Mirror will enhance your agile project management workflow. Modern and sleek user interface with advanced capabilities to plan and execute your project efficiently. Supports Scrum and Kanban agile management processes. Unlimited number of projects and teams.`,
     // description: `Mirror optimizes your agile project management workflow with Scrum or Kanban. Clean user interface with advanced capabilities to execute your project efficiently`,
     description: `Optimize your workflow and enhance customer satisfaction, with a fast and robust customer assistance medium. Reduce redundancy using Artificial Intelligence.`,
