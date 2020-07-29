@@ -13,12 +13,16 @@
       "label": "+91-8095500622"
     },
     {
-      "faIcon": "fab fa-discord",
-      "label": "https://discord.gg/B76x6cq"
+      "faIcon": "fab fa-linkedin",
+      "label": "https://www.linkedin.com/company/ioak"
     },
     {
-      "faIcon": "fab fa-linkedin-in",
-      "label": "https://www.linkedin.com/company/ioak"
+      "faIcon": "fab fa-facebook-square",
+      "label": "https://www.facebook.com/ioakdevcommunity"
+    },
+    {
+      "faIcon": "fab fa-discord",
+      "label": "https://discord.gg/B76x6cq"
     }
   ],
   "links": [
