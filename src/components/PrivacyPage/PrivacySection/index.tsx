@@ -8,7 +8,7 @@ export default function PrivacySection() {
         <h1>Privacy Policy for Mirror</h1>
 
         <p>
-          At Mirror, accessible from https://mirror.ioak.org, one of our main
+          At Mirror, accessible from https://mirror.ioak.io, one of our main
           priorities is the privacy of our visitors. This Privacy Policy
           document contains types of information that is collected and recorded
           by Mirror and how we use it.

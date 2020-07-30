@@ -13,7 +13,7 @@ export default function TermsSection() {
 
         <p>
           These terms and conditions outline the rules and regulations for the
-          use of Mirror's Website, located at https://mirror.ioak.org.
+          use of Mirror's Website, located at https://mirror.ioak.io.
         </p>
 
         <p>

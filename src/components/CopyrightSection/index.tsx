@@ -7,7 +7,7 @@ export default function CopyrightSection() {
   return (
     <div className="copyright-section">
       <div className="copyright-section--copyright desktop-only">
-        © 2020 ioak.org
+        © 2020 ioak.io
       </div>
       <span className="desktop-only">|</span>
       <Link to="/terms" title="Terms and conditions">
